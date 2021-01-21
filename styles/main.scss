@@ -1,0 +1,77 @@
+$main-color: #FF4E79;
+
+body {
+    background-color: #f0f2f5;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background: $main-color;
+    padding: 2rem 0 10rem;
+    text-align: center;
+  }
+
+
+  .hero {
+      margin-top: -8rem;
+
+      .content {
+          background-color: #fff;
+          border-radius: .80rem;
+      }
+  }
+
+
+
+  .product {
+      img {
+          max-width: 100px;
+      }
+  }
+/* Table */
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+  
+    color: #969cb3;
+  }
+  
+  table thead tr th:first-child, 
+  table tbody tr td:first-child {
+    border-radius: 0.30rem 0 0 0.30rem;
+  }
+  
+  table thead th {
+    background: white;
+    
+  
+    font-weight: normal;
+    padding: 1rem 2rem;
+  
+    text-align: left;
+  }
+  
+  
+  
+  table tbody td {
+    background: white;
+  
+    padding: 1rem 2rem;
+  }
+  
+  td.description {
+    color: var(--dark-blue);
+  }
+  
+  td.income {
+    color: #12a453;
+  }
+  
+  td.expense {
+    color: #e92929;
+  }
