@@ -12,66 +12,59 @@ img {
 
 header {
     background: $main-color;
-    padding: 2rem 0 10rem;
+    padding: 2rem 0 6rem;
     text-align: center;
+    color: #fff;
   }
 
 
   .hero {
-      margin-top: -8rem;
+      margin-top: -4rem;
 
       .content {
           background-color: #fff;
           border-radius: .80rem;
+          text-align: center;
+          padding: 30px;
       }
+      margin-bottom: 30px;
   }
 
 
+.catalog {
+    .product {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
 
-  .product {
-      img {
-          max-width: 100px;
-      }
-  }
-/* Table */
-#data-table {
-    width: 100%;
-    border-spacing: 0 0.5rem;
-  
-    color: #969cb3;
-  }
-  
-  table thead tr th:first-child, 
-  table tbody tr td:first-child {
-    border-radius: 0.30rem 0 0 0.30rem;
-  }
-  
-  table thead th {
-    background: white;
-    
-  
-    font-weight: normal;
-    padding: 1rem 2rem;
-  
-    text-align: left;
-  }
-  
-  
-  
-  table tbody td {
-    background: white;
-  
-    padding: 1rem 2rem;
-  }
-  
-  td.description {
-    color: var(--dark-blue);
-  }
-  
-  td.income {
-    color: #12a453;
-  }
-  
-  td.expense {
-    color: #e92929;
-  }
+        h3 {
+            color: #777;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        .price {
+            font-weight: 700;
+            font-size: 22px;
+            color: #333;
+        }
+
+
+        .cta-link {
+            background-color: $main-color;
+            color: #fff;
+            display: inline-block;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+    }
+}
+
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

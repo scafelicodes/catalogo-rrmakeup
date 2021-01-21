@@ -7,6 +7,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { Container, Row, Col } from 'react-bootstrap';
+
 export default function Home() {
   return (<>
 
@@ -16,73 +18,144 @@ export default function Home() {
 
 
 <header>
-  <h1 id="logo">Catálogo</h1>
+  <Image
+  src="/logo-rr.png"
+  alt="RR MakeUp"
+  width="150"
+  height="150"
+
+   />
 </header>
 
+
+
+
 <section className="hero">
-  <div className="container">
+
+  <Container>
+  
     <div className="content">
-      <h1>RR MakeUp - Catálogo 2021</h1>
-      <p></p>
-    </div>    
-  </div>
+      <h1><b>RR MakeUp</b> Catálogo 2021</h1>
+      <p>Para consultar a disponibilidade, clique no produto desejado. <br></br> Você será redirecionada para uma de nossas atendentes :)</p>
+    </div>   
+
+    </Container> 
+  
 </section>
 
 
-<section id="catalog">
+<section className="catalog">
 
-<div className="container">
+<Container>
 
-      <h2>Nossos produtos</h2>
-      <table id="data-table">
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Descrição</th>
-            <th>Valor</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="product">
-              <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
-            </td>
-            <td class="description">BASE HD BEGE 02 LÍQUIDA YES!</td>
-            <td class="value">R$ 15</td>
-          </tr>
+<Row>
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$10</p>
+     <a href="#" className="cta-link">eu quero</a>
 
-          <tr>
-            <td class="product">
-              <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
-            </td>
-            <td class="description">BASE HD BEGE 02 LÍQUIDA YES!</td>
-            <td class="value">R$ 15</td>
-          </tr>
-
-          <tr>
-            <td class="product">
-              <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
-            </td>
-            <td class="description">BASE HD BEGE 02 LÍQUIDA YES!</td>
-            <td class="value">R$ 15</td>
-          </tr>
+   </div>
+  </Col>
 
 
-          <tr>
-            <td class="product">
-              <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
-            </td>
-            <td class="description">BASE HD BEGE 02 LÍQUIDA YES!</td>
-            <td class="value">R$ 15</td>
-          </tr>
-          
-        </tbody>
-      </table>
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$35</p>
 
-      </div>
+     <a href="#" className="cta-link">eu quero</a>
 
-    </section>
+   </div>
+  </Col>
 
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$12</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={3}>
+   <div className="product">
+     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
+     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link">eu quero</a>
+   </div>
+  </Col>
+</Row>
+
+</Container>
+
+</section>
 
     
 
@@ -94,11 +167,12 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Made with ❤️ by Scafeli
+            Feito com ❤️ por Scafeli
             
           </a>
         </div>
       </footer>
+
     </>
   )
 }
