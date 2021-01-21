@@ -54,7 +54,7 @@ export default function Home() {
      <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$10</p>
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
 
    </div>
   </Col>
@@ -66,7 +66,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$35</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
 
    </div>
   </Col>
@@ -77,7 +77,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$12</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
 
    </div>
   </Col>
@@ -88,7 +88,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -98,7 +98,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -108,7 +108,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -118,7 +118,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -128,7 +128,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -138,7 +138,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 
@@ -148,7 +148,7 @@ export default function Home() {
      <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
-     <a href="#" className="cta-link">eu quero</a>
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
 </Row>
@@ -161,7 +161,8 @@ export default function Home() {
 
       <footer>
 
-        <div className="container text-center">
+        <Container>
+
           <a
             href="https://scafeli.com.br"
             target="_blank"
@@ -170,7 +171,8 @@ export default function Home() {
             Feito com ❤️ por Scafeli
             
           </a>
-        </div>
+
+          </Container>
       </footer>
 
     </>
