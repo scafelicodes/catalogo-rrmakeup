@@ -22,6 +22,41 @@ header {
   .hero {
       margin-top: -4rem;
 
+      p {
+          max-width: 470px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          color: #696969;
+      }
+
+      ul {
+          margin: 0;
+          padding: 0;
+
+          li {
+              list-style: none;
+              display: inline-block;
+              padding: 10px 20px;
+
+
+
+              a {
+                  i {
+                      margin-right: 5px;
+                  }
+
+                  color: $main-color;
+                
+                  &:hover {
+                      text-decoration: none;
+                  }
+
+
+                }
+
+          }
+      }
+
       .content {
           background-color: #fff;
           border-radius: .80rem;
@@ -39,6 +74,10 @@ header {
         padding: 20px;
         text-align: center;
         margin-bottom: 20px;
+
+        img {
+            margin-bottom: 10px;
+        }
 
         h3 {
             color: #777;
@@ -72,12 +111,34 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     header {
         img {
             width: 120px;
         }
+    }
+
+    .hero {
+
+
+        ul {
+        li {
+
+            width: 100%;
+            padding: 0px 0px;
+            margin-bottom: 10px;
+            
+
+            a {
+            width: 100%;
+            padding: 15px 30px;
+            display: inline-block;
+            border: 1px solid $main-color;
+            border-radius: 8px;
+            }
+        }
+    }
     }
 
     .catalog {
