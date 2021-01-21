@@ -18,6 +18,8 @@ export default function Home() {
 
 
 <header>
+
+  <Container>
   <Image
   src="/logo-rr.png"
   alt="RR MakeUp"
@@ -25,6 +27,7 @@ export default function Home() {
   height="150"
 
    />
+   </Container>
 </header>
 
 
