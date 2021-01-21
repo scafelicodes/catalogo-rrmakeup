@@ -22,6 +22,17 @@ header {
   .hero {
       margin-top: -4rem;
 
+      h3 {
+          font-size: 16px;
+          letter-spacing: 1px;
+          color: #777777;
+          text-transform: uppercase;
+      }
+
+      h1 {
+          font-weight: 700;
+      }
+
       p {
           max-width: 470px;
           margin: 0 auto;
@@ -99,6 +110,7 @@ header {
             padding: 10px 25px;
             border-radius: 8px;
             text-decoration: none;
+
         }
     }
 }
@@ -108,6 +120,13 @@ footer {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
+
+    a {
+        &:hover {
+            text-decoration: none;
+            color: #777777;
+        }
+    }
 }
 
 
@@ -123,22 +142,21 @@ footer {
 
 
         ul {
-        li {
+            li {
 
-            width: 100%;
-            padding: 0px 0px;
-            margin-bottom: 10px;
-            
+                width: 100%;
+                padding: 0px 0px;
+                margin-bottom: 10px;
 
-            a {
-            width: 100%;
-            padding: 15px 30px;
-            display: inline-block;
-            border: 1px solid $main-color;
-            border-radius: 8px;
+                a {
+                width: 100%;
+                padding: 15px 30px;
+                display: inline-block;
+                border: 1px solid $main-color;
+                border-radius: 8px;
+                }
             }
         }
-    }
     }
 
     .catalog {
@@ -157,3 +175,13 @@ footer {
     }
   }
   
+
+  @media only screen and (max-width: 400px) {
+
+    .cta-link {
+        i {
+            display: none;
+        }
+    }
+
+  }

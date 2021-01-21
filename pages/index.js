@@ -34,23 +34,22 @@ export default function Home() {
 
 
 <section className="hero">
-
   <Container>
   
     <div className="content">
-      <h1>Catálogo <b>RR MakeUp</b></h1>
+      <h3>Catálogo</h3>
+      <h1>RR MakeUp</h1>
       <p>Para consultar a disponibilidade, <b>clique em comprar</b>. Você será redirecionada para uma de nossas atendentes.</p>
 
       <ul>
-        
-        <li><a href="#"><i class="fab fa-instagram"></i>Instagram </a></li>
-        <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Como chegar</a></li>
+        <li><a href="https://www.instagram.com/rrmakeup.ofc/"><i class="fab fa-instagram" target="_blank"></i>Instagram </a></li>
+        <li><a href="#"><i class="fab fa-whatsapp" target="_blank"></i> WhatsApp</a></li>
+        <li><a href="https://goo.gl/maps/iPZZuzpyfrKhpoE39" target="_blank"><i class="fas fa-map-marker-alt"></i> Como chegar</a></li>
       </ul>
-    </div>   
+
+    </div>
 
     </Container> 
-  
 </section>
 
 
@@ -170,14 +169,15 @@ export default function Home() {
     
 
       <footer>
-
         <Container>
 
-          <a
-            href="https://scafeli.com.br"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <p>R. Alberto Tôrres, 5 - Centro, Itaboraí - RJ</p>
+
+            <a
+              href="https://scafeli.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             Feito com ❤️ por Scafeli
             
           </a>
