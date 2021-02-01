@@ -60,8 +60,16 @@ export default function Home() {
 <Row>
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://images.tcdn.com.br/img/img_prod/556508/base_hd_bege_02_liquida_yes_make_up_yes_cosmetics_749_1_20190116131304.png" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     
+     
+   <Image
+  src="/products/001.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />
+     <h3>Redutor de Poros - Max Love</h3>
      <p className="price">R$10</p>
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
 
@@ -71,8 +79,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/Q20200572/kit-batom-vermelhissimo-e-esmalte-vermelherrimo.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/002.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$35</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -82,8 +95,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://cdn.ultrafarma.com.br/static/produtos/812188/large-637054456057073563-812188_2.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/003.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$12</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -93,8 +111,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://prebel.vteximg.com.br/arquivos/ids/160436-1000-1000/maquillaje-rostro-bases-catrice-base-liquida-hd-046-camel-beige-catrice-f9d7a0-pb0081186-sku_pb0081186_d7b691_1.png?v=637250119365430000" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/004.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -103,8 +126,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://cdn.awsli.com.br/600x450/987/987288/produto/36625679/pancake-branco-c973e3e0.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/005.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -113,8 +141,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://http2.mlstatic.com/D_NQ_NP_930269-MLB31100276046_062019-O.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/006.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -123,8 +156,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://www.luxbel.com.br/imagem/index/26295723/G/kit_omega_3_bell_corpus.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/007.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -133,8 +171,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://www.maxvalleshop.com.br/shop/product_images/j/014/higienizador_%28com_fundo%29_500x500__41804_std.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/008.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -143,8 +186,13 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://ae01.alicdn.com/kf/HTB1roIqPFXXXXcRXFXXq6xXFXXXW/229468445/HTB1roIqPFXXXXcRXFXXq6xXFXXXW.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/009.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
@@ -153,13 +201,725 @@ export default function Home() {
 
   <Col xs={6} md={4} xl={3}>
    <div className="product">
-     <img src="https://dozlxztiddv53.cloudfront.net/Custom/Content/Products/10/13/1013430_fixador-de-maquiagem-ruby-rose_m1_636727984327085959.jpg" />
-     <h3>Base HD Bege 02 Líquida Yes!</h3>
+   <Image
+  src="/products/010.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
      <p className="price">R$40</p>
 
      <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
    </div>
   </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/011.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/012.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/013.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/014.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/015.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/016.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/017.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/018.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/019.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/020.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/021.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/022.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/023.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/024.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/025.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/026.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/027.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/028.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/029.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/030.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/031.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/032.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/033.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/034.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/035.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/036.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/037.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/038.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/039.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/040.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/041.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/042.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/043.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/044.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/045.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/046.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/047.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/048.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/049.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/050.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/051.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/052.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/053.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/054.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/055.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/056.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+  <Col xs={6} md={4} xl={3}>
+   <div className="product">
+   <Image
+  src="/products/057.jpg"
+  alt="RR MakeUp"
+  width="400"
+  height="500"
+
+   />     <h3>Base HD Bege 02 Líquida Yes!</h3>
+     <p className="price">R$40</p>
+
+     <a href="#" className="cta-link"><i class="fab fa-whatsapp"></i> Comprar</a>
+   </div>
+  </Col>
+
+
 </Row>
 
 </Container>
