@@ -63,7 +63,7 @@ export default function Home() {
      
      
    <Image
-  src="/products/001.jpg"
+  src="/001.jpg"
   alt="RR MakeUp"
   width="400"
   height="500"
